@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <style>
+    body {
+      background-color: #8aafd4;
+    }
+    form {
+      width: 20%;
+      margin: 0 auto;
+      padding: 5%;
+      background-color: #eeeff0;
+      border-radius: 5px;
+      border: 1px solid black;
+      margin-top: 10%;
+    }
+    input {
+      margin: 0 auto;
+      margin-left: 10px;
+      width: 50%;
+    }
+    p {
+      font-family: 'Roboto';
+      text-align: center;
+      font-size: 15px;
+    }
+    h1,
+    h6 {
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      color: blue;
+    }
+
+    h5 {
+      text-align: center;
+      /* text-decoration: underline; */
+    }
+    button {
+      background-color: green;
+      font-size: 15px;
+      text-align: center;
+      color: white;
+      font-family: 'Roboto';
+      width: 20%;
+      margin: 0 auto;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width: 786px) {
+      form {
+        width: 50%;
+        margin-top: 40%;
+      }
+
+      input {
+        margin-left: 10px auto;
+        width: 50%;
+      }
+      label {
+        margin-right: 10px;
+      }
+      p {
+        font-size: 15px;
+      }
+      button {
+        width: 30%;
+      }
+    }
+  </style>
+  <body>
+    <form action="post">
+      <h1>Facebook</h1>
+      <p>
+        <label for="">Username</label>
+        <i class="fa-solid fa-user"></i><input type="text" />
+      </p>
+      <p>
+        <label for="">Password</label>
+        <i class="fa-solid fa-lock"></i><input type="password" />
+      </p>
+      <h6><a href="">Forgot Password?</a></h6>
+      <h5>Created with <i class="fa-solid fa-heart fa-beat-fade"></i> by Septian</h5>
+
+      <button>Login</button>
+    </form>
+    <script src="https://kit.fontawesome.com/0db5a97f3a.js" crossorigin="anonymous"></script>
+  </body>
+</html>
